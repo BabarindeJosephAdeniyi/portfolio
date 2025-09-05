@@ -3,6 +3,7 @@ import React from 'react'
 import Hero from './components/Hero'
 import ServiceCard from './components/ServiceCard'
 import FeaturedProjects from './components/FeaturedProjects'
+import Aboutme from './components/Aboutme'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero/>
       <ServiceCard/>
       <FeaturedProjects/>
+      <Aboutme/>
     </>
   )
 }

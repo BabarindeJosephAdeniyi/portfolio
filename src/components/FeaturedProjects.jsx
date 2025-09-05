@@ -1,5 +1,6 @@
 import React from "react";
 import "./projects.css";
+import "./featuredprojects.css"
 
 const FeaturedProjects = () => {
   return (
@@ -16,7 +17,7 @@ const FeaturedProjects = () => {
           <div className="col-md-4">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
-                src="https://via.placeholder.com/350x200"
+                src="myproject.png"
                 alt="Project 1"
                 className="img-fluid rounded-3 mb-3"
               />
@@ -32,7 +33,7 @@ const FeaturedProjects = () => {
           <div className="col-md-4">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
-                src="https://via.placeholder.com/350x200"
+                src="myproject.png"
                 alt="Project 2"
                 className="img-fluid rounded-3 mb-3"
               />
@@ -48,7 +49,52 @@ const FeaturedProjects = () => {
           <div className="col-md-4">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
-                src="https://via.placeholder.com/350x200"
+                src="myproject.png"
+                alt="Project 3"
+                className="img-fluid rounded-3 mb-3"
+              />
+              <h5>Blog Platform</h5>
+              <p className="text-secondary">
+                A blog platform with CRUD features, built using React and Firebase.
+              </p>
+              <a href="#" className="btn btn-sm btn-outline-info">View Project</a>
+            </div>
+          </div>
+
+                    <div className="col-md-4">
+            <div className="project-card p-3 rounded-3 shadow-sm h-100">
+              <img
+                src="myproject.png"
+                alt="Project 3"
+                className="img-fluid rounded-3 mb-3"
+              />
+              <h5>Blog Platform</h5>
+              <p className="text-secondary">
+                A blog platform with CRUD features, built using React and Firebase.
+              </p>
+              <a href="#" className="btn btn-sm btn-outline-info">View Project</a>
+            </div>
+          </div>
+
+                    <div className="col-md-4">
+            <div className="project-card p-3 rounded-3 shadow-sm h-100">
+              <img
+                src="myproject.png"
+                alt="Project 3"
+                className="img-fluid rounded-3 mb-3"
+              />
+              <h5>Blog Platform</h5>
+              <p className="text-secondary">
+                A blog platform with CRUD features, built using React and Firebase.
+              </p>
+              <a href="#" className="btn btn-sm btn-outline-info">View Project</a>
+            </div>
+          </div>
+
+                    <div className="col-md-4">
+            <div className="project-card p-3 rounded-3 shadow-sm h-100">
+              <img
+                src="myproject.png"
                 alt="Project 3"
                 className="img-fluid rounded-3 mb-3"
               />

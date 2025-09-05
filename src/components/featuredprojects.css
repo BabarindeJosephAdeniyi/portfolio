@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project-card {
+    cursor: pointer;
+     backdrop-filter: blur(10px);
+     padding: 20px 20px;
+}
