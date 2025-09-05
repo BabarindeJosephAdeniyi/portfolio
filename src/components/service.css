@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.service-card {
+  border: 2px solid #0fa291ff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: #313132; 
+}
+
+.service-card:hover {
+  background-color: #00e0c6e6 !important; 
+  border: none;
+  color: black !important;
+  transform: translateY(-5px); 
+}
+
+
+.service-card:hover h4,
+.service-card:hover small,
+.service-card:hover svg {
+  color: black !important;
+}
+

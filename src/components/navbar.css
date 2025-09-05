@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.logo {
+  font-family: 'Kalam', cursive;
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+}
+
+.navbarbg {
+    box-shadow: 0 4px 15px rgba(5, 5, 5, 0.783);
+
+}
+
+.btn {
+  border: none;
+  color: rgb(54, 51, 51);
+  background-color: #00E0C6;
+  font-size: 18px;
+  transition: ease-in-out 0.3s;
+  padding: 10px 20px;
+}
+
+.nav-link {
+  margin-right: 80px;
+  color: white; 
+  font-size: 19px;
+  transition: color 0.3s ease;
+}
+
+.nav-link:focus,
+.nav-link.active {
+  color: #00E0C6 !important;   
+}

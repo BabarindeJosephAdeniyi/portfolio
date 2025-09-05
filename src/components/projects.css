@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.project-card {
+  background-color: #1c1c1c;
+  transition: all 0.3s ease-in-out;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  background-color: #00E0C6;
+  color: black;
+}
+
+.project-card:hover h5,
+.project-card:hover p {
+  color: black;
+}
