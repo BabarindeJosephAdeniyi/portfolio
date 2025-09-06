@@ -1,0 +1,11 @@
+.form-control::placeholder {
+      color: rgb(169, 166, 166);
+  opacity: 1;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+.contact-section {
+  overflow-x: hidden;
+}

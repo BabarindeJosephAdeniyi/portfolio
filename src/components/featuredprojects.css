@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* 
+.text-secondary {
+    text-align: justify;
+} */
 
 .project-card {
     cursor: pointer;

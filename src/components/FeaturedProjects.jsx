@@ -4,17 +4,16 @@ import "./featuredprojects.css"
 
 const FeaturedProjects = () => {
   return (
-    <section className="projects-section py-5 bg-dark text-white">
+    <section className="projects-section py-5 bg-dark text-white" id="projects">
       <div className="text-center mb-5">
-        <p className="mb-1 text-secondary fw-bold">PROJECTS</p>
+        <p className="mb-1 text-secondaryy fw-bold">PROJECTS</p>
         <h2 className="fs-2">Featured <span style={{ color: "#00E0C6" }}>Projects</span></h2>
         <hr className="mx-auto" style={{ width: "60px", border: "2px solid #00E0C6" }} />
       </div>
 
       <div className="container">
         <div className="row g-4">
-          {/* Project 1 */}
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up-right">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"
@@ -29,8 +28,7 @@ const FeaturedProjects = () => {
             </div>
           </div>
 
-          {/* Project 2 */}
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up-right">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"
@@ -45,8 +43,7 @@ const FeaturedProjects = () => {
             </div>
           </div>
 
-          {/* Project 3 */}
-          <div className="col-md-4">
+          <div className="col-md-4" data-aos="fade-up-right">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"
@@ -61,7 +58,7 @@ const FeaturedProjects = () => {
             </div>
           </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos="flip-up">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"
@@ -76,7 +73,7 @@ const FeaturedProjects = () => {
             </div>
           </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos="flip-down">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"
@@ -91,7 +88,7 @@ const FeaturedProjects = () => {
             </div>
           </div>
 
-                    <div className="col-md-4">
+                    <div className="col-md-4" data-aos="fade-up">
             <div className="project-card p-3 rounded-3 shadow-sm h-100">
               <img
                 src="myproject.png"

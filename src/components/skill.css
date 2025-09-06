@@ -1,0 +1,80 @@
+/* Shared Badge Styles */
+.skill-badge {
+  border: 1px solid #00e0c6;
+  padding: 10px 20px;   /* smaller padding */
+  background-color: #2b2b2b;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9rem;    /* smaller text */
+  transition: all 0.3s ease-in-out;
+}
+
+/* Shapes */
+.circle {
+  border-radius: 50%;
+  width: 120px;   
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pill {
+  border-radius: 40px;
+  padding: 25px 35px;
+}
+
+.rectangle {
+  border-radius: 6px;
+  padding: 25px 35px;
+}
+
+/* Hover effect */
+.skill-badge:hover {
+  background-color: #00e0c6;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* Desktop layout */
+.skills-layout {
+  display: grid;
+  grid-template-columns: repeat(3, auto);  /* tighter fit */
+  gap: 10px;   /* reduce space */
+  justify-content: center;
+  align-items: center;
+}
+
+/* Positions */
+.skills-layout .skill-badge:nth-child(1) { grid-column: 1; grid-row: 1; }
+.skills-layout .skill-badge:nth-child(2) { grid-column: 2; grid-row: 1; }
+.skills-layout .skill-badge:nth-child(3) { grid-column: 3; grid-row: 1; }
+.skills-layout .skill-badge:nth-child(4) { grid-column: 1; grid-row: 2; }
+.skills-layout .skill-badge:nth-child(5) { grid-column: 2; grid-row: 2; }
+.skills-layout .skill-badge:nth-child(6) { grid-column: 1; grid-row: 3; }
+.skills-layout .skill-badge:nth-child(7) { grid-column: 3; grid-row: 3; }
+
+/* Tablet (2 columns) */
+@media (max-width: 992px) {
+  .skills-layout {
+    grid-template-columns: repeat(2, auto);
+    gap: 12px;
+  }
+  .skills-layout .skill-badge {
+    grid-column: auto !important;
+    grid-row: auto !important;
+  }
+}
+
+/* Mobile (1 column) */
+@media (max-width: 576px) {
+  .skills-layout {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  .skill-badge {
+    width: 100% !important;
+    border-radius: 10px !important;
+  }
+}

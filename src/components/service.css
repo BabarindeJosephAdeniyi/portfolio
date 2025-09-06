@@ -10,6 +10,7 @@
   background-color: #313132; 
 }
 
+
 .service-card:hover {
   background-color: #00e0c6e6 !important; 
   border: none;
@@ -24,3 +25,6 @@
   color: black !important;
 }
 
+small {
+  text-align: justify;
+}

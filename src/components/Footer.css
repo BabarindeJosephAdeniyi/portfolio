@@ -1,0 +1,8 @@
+.social-icon {
+  color: #ffffff; 
+  transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #00E0C6; 
+}
