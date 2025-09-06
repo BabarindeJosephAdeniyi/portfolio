@@ -69,7 +69,7 @@ const Contactme = () => {
                 </p>
                 <p className="d-flex align-items-center mb-3">
                   <MdLocationOn className="me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
-                  <span>Enugu, Nigeria.</span>
+                  <span>Oyo, Nigeria.</span>
                 </p>
               </div>
             </div>
@@ -87,14 +87,14 @@ const Contactme = () => {
                   type="email"
                   name="user_email"
                   placeholder="Email"
-                  className="form-control mb-3 bg-dark"
+                  className="form-control text-light mb-3 bg-dark"
                   required
                 />
                 <textarea
                   name="message"
                   rows="4"
                   placeholder="Message"
-                  className="form-control bg-dark mb-3"
+                  className="form-control bg-dark text-light mb-3"
                   required
                 ></textarea>
                 <Button
