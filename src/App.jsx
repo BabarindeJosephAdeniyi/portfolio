@@ -17,8 +17,8 @@ function App() {
 
     useEffect(() => {
     AOS.init({
-      duration: 1000,  // how long the animation runs
-      once: true,      // whether animation happens only once
+      duration: 1000,  
+      once: true,     
       easing: "ease-in-out",
     });
   }, []);
