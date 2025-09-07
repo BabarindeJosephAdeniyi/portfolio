@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { FiShoppingBag } from "react-icons/fi";
 import Offcanvas from 'react-bootstrap/Offcanvas';
-import './navbar.css';
+import '../css/navbar.css';
 
 function Navbarr() {
   return (

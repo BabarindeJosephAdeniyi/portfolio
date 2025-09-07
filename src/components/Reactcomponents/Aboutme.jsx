@@ -2,12 +2,12 @@ import React from 'react'
 import { FiShoppingBag } from "react-icons/fi";
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
-import "./aboutme.css"
+import "../css/aboutme.css"
 
 const Aboutme = () => {
   return (
     <div>
-     <section className="about-section  py-5 text-light">
+     <section className="about-section  py-5 text-light" id='about'>
   <div className="container">
     <div className="row align-items-center">
       <div className='text-center'>

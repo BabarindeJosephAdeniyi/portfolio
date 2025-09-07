@@ -1,12 +1,12 @@
 import './App.css'
 import React from 'react'
-import Hero from './components/Hero'
-import ServiceCard from './components/ServiceCard'
-import FeaturedProjects from './components/FeaturedProjects'
-import Aboutme from './components/Aboutme'
-import Skills from './components/Skill'
-import Contactme from './components/Contactme'
-import Footer from './components/Footer'
+import Hero from './components/Reactcomponents/Hero'
+import ServiceCard from "./components/Reactcomponents/ServiceCard"
+import FeaturedProjects from './components/Reactcomponents/FeaturedProjects'
+import Aboutme from './components/Reactcomponents/Aboutme'
+import Skills from './components/Reactcomponents/Skill'
+import Contactme from './components/Reactcomponents/Contactme'
+import Footer from './components/Reactcomponents/Footer'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from 'react'

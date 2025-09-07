@@ -9,3 +9,7 @@ body, html {
 .contact-section {
   overflow-x: hidden;
 }
+
+#contact {
+  transition: ease-in 0.5s;
+}

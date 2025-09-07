@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import "./contact.css"
+import "../css/contact.css"
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail, MdLocationOn } from "react-icons/md";
 import emailjs from "emailjs-com";

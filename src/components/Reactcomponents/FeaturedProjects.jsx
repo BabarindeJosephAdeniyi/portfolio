@@ -1,6 +1,5 @@
 import React from "react";
-import "./projects.css";
-import "./featuredprojects.css"
+import "../css/featuredprojects.css"
 
 const FeaturedProjects = () => {
   return (

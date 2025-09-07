@@ -2,7 +2,7 @@ import React from 'react'
 import { SiCodecrafters } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { MdDevices } from "react-icons/md";
-import "./service.css"
+import "../css/service.css"
 
 const ServiceCard = () => {
   const iconStyle = {
