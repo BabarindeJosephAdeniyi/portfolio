@@ -27,7 +27,7 @@ const Hero = () => {
           <div className="d-flex gap-3 flex-wrap justify-content-center mt-5">
             <Link
               to="https://github.com/BabarindeJosephAdeniyi"
-              className="d-inline-flex justify-content-center align-items-center rounded-circle bg-white text-dark"
+              className="d-inline-flex fa-fade justify-content-center align-items-center rounded-circle bg-white text-dark"
               style={{ width: "50px", height: "50px", fontSize: "22px" }}
             >
               <FiGithub />
@@ -47,12 +47,12 @@ const Hero = () => {
               className="d-inline-flex justify-content-center align-items-center rounded-circle bg-white text-dark"
               style={{ width: "50px", height: "50px", fontSize: "22px" }}
             >
-              <FaLinkedinIn />
+              <FaLinkedinIn  />
             </Link>
 
             <Link
               to="https://x.com/babarinde0403?t=E0QTdd7Rn8H5ql27--cyIA&s=09"
-              className="d-inline-flex justify-content-center align-items-center rounded-circle bg-white text-dark"
+              className="fa-flip d-inline-flex justify-content-center align-items-center rounded-circle bg-white text-dark"
               style={{ width: "50px", height: "50px", fontSize: "22px" }}
             >
               <FaTwitter />

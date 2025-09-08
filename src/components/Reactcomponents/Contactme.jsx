@@ -58,17 +58,17 @@ const Contactme = () => {
 
               <div className="mt-4">
                 <p className="d-flex align-items-center mb-3">
-                  <FaPhoneAlt className="me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
+                  <FaPhoneAlt className="me-2 border fa-bounce rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
                   <span style={{ color: "#00E0C6" }}>+234 706 771 8920 </span>
                 </p>
                 <p className="d-flex align-items-center mb-3">
-                  <MdEmail className="me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
+                  <MdEmail className="fa- me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
                   <span style={{ color: "#00E0C6" }}>
                     jadeniyi0403@gmail.com
                   </span>
                 </p>
-                <p className="d-flex align-items-center mb-3">
-                  <MdLocationOn className="me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
+                <p className="d-flex  align-items-center mb-3">
+                  <MdLocationOn className="fa-fade me-2 border rounded-circle p-2 fs-2 bg-light text-dark" />{" "}
                   <span>Oyo, Nigeria.</span>
                 </p>
               </div>

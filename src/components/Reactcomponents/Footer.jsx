@@ -47,13 +47,13 @@ const Footer = () => {
           <div className="col-md-3 mb-4 ps-md-5">
             <h6 className="fw-bold">Social Media Handles</h6>
             <a href="https://www.facebook.com/joseph.babarinde.33" className="social-icon me-3 fs-5">
-              <FaFacebookF />
+              <FaFacebookF className="fa-fade" />
             </a>
             <a href="https://x.com/babarinde0403?t=E0QTdd7Rn8H5ql27--cyIA&s=09" className="social-icon me-3 fs-5">
               <FaTwitter />
             </a>
             <a href="https://www.instagram.com/babarindejoseph04?igsh=bzN1bnRmOHB0Z3l2" className="social-icon me-3 fs-5">
-              <FaInstagram />
+              <FaInstagram className="fa-flip"/>
             </a>
             <a href="https://www.linkedin.com/in/joseph-babarinde-707a58364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="social-icon fs-5">
               <FaLinkedinIn />
