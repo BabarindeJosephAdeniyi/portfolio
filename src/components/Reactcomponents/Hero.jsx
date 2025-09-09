@@ -42,6 +42,8 @@ const Hero = () => {
 </a>
 
 
+            
+
             <Link
               to="https://www.linkedin.com/in/joseph-babarinde-707a58364?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
               className="d-inline-flex justify-content-center align-items-center rounded-circle bg-white text-dark"

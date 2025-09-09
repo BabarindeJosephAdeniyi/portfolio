@@ -30,7 +30,7 @@ const Aboutme = () => {
         <p className=" text-light fs-6 pb-3 about-text">
           Hello! My name is <span className="fw-semibold">Joseph</span>, but most people 
           know me online as <span style={{ color: "#00E0C6" }}>Joscoder</span>. I’m a 
-          passionate <strong>Frontend Developer</strong> who loves turning ideas into 
+          passionate <strong> Frontend Developer</strong> who loves turning ideas into 
           clean, functional, and interactive websites. My journey started with curiosity 
           about how websites work, which grew into a commitment to create user-friendly 
           digital solutions.

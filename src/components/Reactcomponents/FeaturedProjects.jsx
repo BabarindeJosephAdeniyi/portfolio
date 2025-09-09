@@ -80,6 +80,8 @@ const FeaturedProjects = () => {
           className="mx-auto"
           style={{ width: "60px", border: "2px solid #00E0C6" }}
         />
+
+
       </div>
 
       <div className="container">
@@ -102,7 +104,7 @@ const FeaturedProjects = () => {
                   <a href="#" className="btn btn-sm btn-outline-info">
                     {item.buttontxt}
                   </a>
-                </div>{" "}
+                </div>
               </div>
             );
           })}
