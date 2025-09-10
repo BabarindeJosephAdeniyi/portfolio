@@ -20,8 +20,8 @@ const Aboutme = () => {
         <img 
           src="mypicture.jpg" 
           alt="Profile" 
-          className="img-fluid rounded-circle shadow-lg smaill-img "
-          style={{ width: "500px", height: "450px", objectFit: "cover" }}
+          className="img-fluid  shadow-lg smaill-img "
+         
         />
       </div>
 

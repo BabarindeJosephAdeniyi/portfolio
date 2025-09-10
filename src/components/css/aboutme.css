@@ -2,11 +2,25 @@
     text-align: justify;
 }
 
-.smaill-img {
+.smaill-img   {
     border: 1px solid green;
     padding: 40px;
+    width: 450px;
+    border-radius: 50%;
+    height: 450px;
+    object-fit: cover;
 }
 
 .about-section {
     background-color: black;
+}
+
+@media (max-width: 508px) {
+   .smaill-img {
+    /* border: none; */
+    width: 400px;
+    height: 400px;
+   }
+
+    
 }
