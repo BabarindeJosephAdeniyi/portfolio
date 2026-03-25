@@ -13,3 +13,7 @@ body, html {
 #contact {
   transition: ease-in 0.5s;
 }
+
+textarea {
+  resize: none;
+}

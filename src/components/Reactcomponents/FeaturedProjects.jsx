@@ -6,67 +6,73 @@ const FeaturedProjects = () => {
     {
       id: 0,
       dataAos: "fade-up",
-      image: "myproject.png",
-      alternate: "project-image",
+      image: "portfolio-image.png",
+      alternate: "portfolio-image",
       title: "Portfolio Website",
       description:
         "A responsive personal portfolio built with React and Bootstrap.",
       buttontxt: "View Project",
+      links: "my-portfolio-joscoder-04.vercel.app"
     },
 
     {
       id: 1,
       dataAos: "zoom-in",
-      image: "myproject.png",
-      alternate: "project-image",
-      title: "E-commerce App",
+      image: "event-image.png",
+      alternate: "event-image",
+      title: "Event App",
       description:
-        "An interactive shopping site with cart functionality and API integration.",
+        "A React app to browse events with QR codes and download options.",
       buttontxt: "View Project",
+      links:"https://event-app-5.vercel.app/"
     },
 
     {
       id: 2,
       dataAos: "zoom-in-left",
-      image: "myproject.png",
-      alternate: "project-image",
-      title: "Blog Platform",
+      image: "ecommerce-image.png",
+      alternate: "ecommerce-image",
+      title: "E-commerce App",
       description:
-        "A blog platform with CRUD features, built using React and Firebase.",
+        "A responsive e-commerce platform built with JavaScript .",
       buttontxt: "View Project",
+      links:"https://fancy-gelato-edd0a6.netlify.app/"
     },
 
     {
       id: 3,
       dataAos: "zoom-in-right",
-      image: "myproject.png",
-      alternate: "project-image",
-      title: "Blog Platform",
+      image: "dictionary.png",
+      alternate: "dictionary-image.png",
+      title: "Dictionary App",
       description:
-        "A blog platform with CRUD features, built using React and Firebase.",
+        "A React app to search and explore word definitions.",
       buttontxt: "View Project",
+      links:"https://silly-pie-d956d1.netlify.app/"
     },
 
     {
       id: 4,
       dataAos: "zoom-out",
-      image: "myproject.png",
-      alternate: "project-image",
-      title: "Portfolio Website",
+      image: "login.png",
+      alternate: "login-image",
+      title: "MERN-Auth-System",
       description:
-        "A responsive personal portfolio built with React and Bootstrap.",
+        "A responsive authentication system built with MERN stack.",
       buttontxt: "View Project",
+      links:"#"
     },
 
     {
       id: 5,
       dataAos: "zoom-out-down",
-      image: "myproject.png",
-      alternate: "project-image",
-      title: "Portfolio Website",
+      image: "register.png",
+      alternate: "register-image",
+      title: "Register Page",
       description:
-        "A responsive personal portfolio built with React and Bootstrap.",
+        "A responsive registration page built with React.",
       buttontxt: "View Project",
+      links:"https://register-form-lac-five.vercel.app"
     },
   ];
   return (
@@ -101,7 +107,7 @@ const FeaturedProjects = () => {
                   />
                   <h5>{item.title}</h5>
                   <p className="text-secondary">{item.description}</p>
-                  <a href="#" className="btn btn-sm btn-outline-info">
+                  <a href={item.links} target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info">
                     {item.buttontxt}
                   </a>
                 </div>
