@@ -46,9 +46,14 @@ function Navbarr() {
             </Nav>
 
             <Form>
-              <Button variant="outline-success" className="btn">
+              {/* <Button variant="outline-success" className="btn">
                 View Resume <FiShoppingBag />
-              </Button>
+              </Button> */}
+              <a href="/josephbabarinde CV Resume.pdf" target="_blank" rel="noopener noreferrer">
+  <Button variant="outline-success" className="btn">
+    View Resume <FiShoppingBag />
+  </Button>
+</a>
             </Form>
           </Offcanvas.Body>
         </Navbar.Offcanvas>
