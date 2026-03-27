@@ -54,7 +54,12 @@ const Aboutme = () => {
 
        
                    <Form>
-                     <Button className='btn' variant="outline-success">View Resume <span><FiShoppingBag /></span> </Button>
+                    <a href="/josephbabarinde CV Resume.pdf" target="_blank" rel="noopener noreferrer">
+  <Button variant="outline-success" className="btn">
+    View Resume <FiShoppingBag />
+  </Button>
+</a>
+                     {/* <Button className='btn' variant="outline-success">View Resume <span><FiShoppingBag /></span> </Button> */}
                    </Form>
       </div>
     </div>
